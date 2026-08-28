@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hero Preview</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body data-preview="hero">
+    <div data-component-root>
+      <!-- 메인 히어로 5초 자동 롤링 슬라이더 컴포넌트 -->
+      <section class="hero" data-hero-slider aria-label="메인 프로모션 배너">
+        <!-- 호버 시 노출되는 좌우 슬라이드 탐색 화살표 -->
+        <button class="hero-arrow hero-arrow-prev" data-hero-prev type="button" aria-label="이전 배너">‹</button>
+        <button class="hero-arrow hero-arrow-next" data-hero-next type="button" aria-label="다음 배너">›</button>
+
+        <!-- 배너 슬라이더 뷰포트 래퍼 -->
+        <div class="hero-slider-wrap">
+          <div class="hero-track" data-hero-track>
+            <!-- [슬라이드 1] 누구의 시점으로 나는 추리할까? (긴나미 상점가의 사건 노트: BROTHER & SISTER) -->
+            <article class="hero-slide theme-gold" data-hero-slide data-book-title="긴나미 상점가의 사건 노트" data-book-author="이노우에 마기" data-book-cover="https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6911852%3Ftimestamp%3D20251205183831">
+              <div class="hero-text-wrap">
+                <h2 class="hero-title">누구의 시점으로<br />나는 추리할까?</h2>
+                <p class="hero-subtitle">한 사건을 두 개의 추리로 즐기기</p>
+              </div>
+              <div class="hero-visual-wrap visual-dual">
+                <div class="hero-book-card card-left">
+                  <img src="https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6911852%3Ftimestamp%3D20251205183831" alt="긴나미 상점가의 사건 노트 BROTHER" />
+                </div>
+                <div class="hero-book-card card-right">
+                  <img src="https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6911853%3Ftimestamp%3D20251205183831" alt="긴나미 상점가의 사건 노트 SISTER" />
+                </div>
+              </div>
+            </article>
+
+            <!-- Slide 2: 완벽한 꿈이라면 깨지 않아도 될까 (꿈이다 아니다) -->
+            <article class="hero-slide theme-blue" data-hero-slide data-book-title="꿈이다 아니다" data-book-author="김중혁" data-book-cover="https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7252489%3Ftimestamp%3D20260724150142">
+              <div class="hero-text-wrap">
+                <h2 class="hero-title">완벽한 꿈이라면<br />깨지 않아도 될까</h2>
+                <p class="hero-subtitle">김중혁이 그린 가장 매혹적인 낙원</p>
+              </div>
+              <div class="hero-visual-wrap visual-single">
+                <div class="hero-book-card card-solo">
+                  <img src="https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7252489%3Ftimestamp%3D20260724150142" alt="꿈이다 아니다" />
+                </div>
+              </div>
+            </article>
+
+            <!-- Slide 3: 히가시노 게이고부터 셀럽 낭독 에세이까지 (투명한 나선) -->
+            <article class="hero-slide theme-green" data-hero-slide data-book-title="투명한 나선" data-book-author="히가시노 게이고" data-book-cover="https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7259532%3Ftimestamp%3D20260822122739">
+              <div class="hero-text-wrap">
+                <h2 class="hero-title">히가시노 게이고부터<br />셀럽 낭독 에세이까지</h2>
+                <p class="hero-subtitle">선선해진 아침을 함께할 9월 오디오북</p>
+              </div>
+              <div class="hero-visual-wrap visual-audio-trio">
+                <div class="hero-book-card card-sub-left">
+                  <img src="https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7245437%3Ftimestamp%3D20260826144844" alt="테오" />
+                  <span class="hero-headphone-badge">🎧</span>
+                </div>
+                <div class="hero-book-card card-main-center">
+                  <img src="https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7259532%3Ftimestamp%3D20260822122739" alt="투명한 나선" />
+                  <span class="hero-headphone-badge">🎧</span>
+                </div>
+                <div class="hero-book-card card-sub-right">
+                  <img src="https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7219109%3Ftimestamp%3D20260627121855" alt="조용히 계속하는 사람" />
+                  <span class="hero-headphone-badge">🎧</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Slide 4: 러닝하고 마시는 맥주 한 잔의 맛 (좋아한다 말하기엔 조금 숨이 차지만) -->
+            <article class="hero-slide theme-sky" data-hero-slide data-book-title="좋아한다 말하기엔 조금 숨이 차지만" data-book-author="김연수" data-book-cover="https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7246265%3Ftimestamp%3D20260627121851">
+              <div class="hero-text-wrap">
+                <h2 class="hero-title">러닝하고 마시는<br />맥주 한 잔의 맛</h2>
+                <p class="hero-subtitle">달리는 작가 7인이 기록한 짜릿한 순간들</p>
+              </div>
+              <div class="hero-visual-wrap visual-single">
+                <div class="hero-book-card card-solo">
+                  <img src="https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7246265%3Ftimestamp%3D20260627121851" alt="좋아한다 말하기엔 조금 숨이 차지만" />
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Controls Pill -->
+          <div class="hero-controls" data-hero-controls>
+            <button class="hero-pause-btn" data-hero-pause type="button" aria-label="일시정지">❚❚</button>
+            <span class="hero-page-badge"><strong class="current-idx">1</strong> / 4 +</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

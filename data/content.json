@@ -1,0 +1,616 @@
+{
+  "_comment": "검비의서재 메인 투데이 페이지 섹션 구성 및 카카오 API 검색 쿼리 설정 데이터",
+  "featured": {
+    "query": "죽을 때까지 나를 다스린다는 것",
+    "title": "검비 회원의 인생책",
+    "recommender": "고요한 새벽독서가_829104 님의 추천",
+    "quote": "흔들리는 감정과 세상의 소음에 지칠 때마다 나를 단단하게 붙잡아 준 책! 《명상록》의 지혜를 통해 내면의 평온과 나다운 삶의 방식을 되찾았습니다.",
+    "points": [
+      "삶의 중심을 잡는 마르쿠스 아우렐리우스의 통찰",
+      "'미움받을 용기' 기시미 이치로의 따뜻한 철학 처방"
+    ]
+  },
+  "curation": {
+    "title": "검비가 주목한 책",
+    "subtitle": "읽고 싶은 모든 것이 모이는 곳",
+    "cards": [
+      {
+        "tag": "기획전",
+        "title": "아직 아무도 몰라요!\n지금 뜨는 별점 베스트 신간",
+        "image": "./assets/banners/content-banner-12.jpg",
+        "position": "center center",
+        "featuredBookTitle": "달러구트 꿈 백화점",
+        "featuredBookAuthor": "이미예",
+        "featuredBookCover": "https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F5416922%3Ftimestamp%3D20260701140519",
+        "books": [
+          {
+            "title": "달러구트 꿈 백화점 0",
+            "author": "이미예",
+            "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F5416922%3Ftimestamp%3D20260701140519"
+          },
+          {
+            "title": "별별 주스 가게",
+            "author": "박은아",
+            "badge": "오디오북",
+            "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7059655%3Ftimestamp%3D20260124151220"
+          }
+        ]
+      },
+      {
+        "tag": "트렌드",
+        "title": "이 소설은 미쳤다!\n도파민 팡팡, 시간 순삭 시리즈",
+        "image": "./assets/banners/content-banner-16.jpg",
+        "position": "center center",
+        "featuredBookTitle": "내 시체를 찾아주세요",
+        "featuredBookAuthor": "호시즈키 와타루",
+        "featuredBookCover": "https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6983171%3Ftimestamp%3D20250801143710",
+        "books": [
+          {
+            "title": "내 시체를 찾아주세요",
+            "author": "호시즈키 와타루 지음 / 최...",
+            "badge": "오디오북",
+            "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6983171%3Ftimestamp%3D20250801143710"
+          },
+          {
+            "title": "내가 죽였다",
+            "author": "정해연",
+            "badge": "오디오북",
+            "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7242856%3Ftimestamp%3D20260619122236"
+          }
+        ]
+      },
+      {
+        "tag": "트렌드",
+        "title": "10년 동안 가장 사랑받은\n독서 콘텐츠는?",
+        "image": "./assets/banners/content-banner-06.jpg",
+        "position": "center center",
+        "featuredBookTitle": "독서라는 사건",
+        "featuredBookAuthor": "정유라",
+        "featuredBookCover": "https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7253975%3Ftimestamp%3D20260728122939",
+        "books": [
+          {
+            "title": "독서라는 사건",
+            "author": "검비의서재, 정유라",
+            "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7253975%3Ftimestamp%3D20260728122939"
+          },
+          {
+            "title": "검비의서재 10주년 데이터 리포트",
+            "author": "검비 독서 연구소",
+            "badge": "무료",
+            "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7253975%3Ftimestamp%3D20260728122939"
+          }
+        ]
+      },
+      {
+        "tag": "올타임 레전드",
+        "title": "세상 모든 이야기의 시작\n서사의 원형이 된 고전 10선",
+        "image": "./assets/banners/content-banner-04.jpg",
+        "position": "78% center",
+        "featuredBookTitle": "오디세이아",
+        "featuredBookAuthor": "호메로스",
+        "featuredBookCover": "https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6892049%3Ftimestamp%3D20260820144838",
+        "books": [
+          {
+            "title": "메데이아",
+            "author": "에우리피데스 / 김기영",
+            "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1536140%3Ftimestamp%3D20190130173102"
+          },
+          {
+            "title": "변신 이야기",
+            "author": "오비디우스 지음, 이종인 옮김",
+            "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1349191%3Ftimestamp%3D20260812111620"
+          }
+        ]
+      },
+      {
+        "tag": "작가전",
+        "title": "독창적 스토리텔러\n문학감상회: 천명관",
+        "image": "./assets/banners/content-banner-03.jpg",
+        "position": "30% center",
+        "featuredBookTitle": "고래",
+        "featuredBookAuthor": "천명관",
+        "featuredBookCover": "https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1158221%3Ftimestamp%3D20260826111017",
+        "books": [
+          {
+            "title": "이것이 남자의 세상이다",
+            "author": "천명관",
+            "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F793702%3Ftimestamp%3D20251121110907"
+          },
+          {
+            "title": "고래",
+            "author": "천명관",
+            "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1158221%3Ftimestamp%3D20260826111017"
+          }
+        ]
+      }
+    ]
+  },
+  "bookSections": [
+    {
+      "id": "ranking",
+      "title": "검비 랭킹",
+      "tabs": [
+        "종합",
+        "소설",
+        "경제경영",
+        "자기계발",
+        "에세이/시",
+        "인문/교양",
+        "취미/실용",
+        "어린이/청소년",
+        "매거진"
+      ],
+      "ranking": true,
+      "books": [
+        {
+          "title": "투명한 나선",
+          "author": "히가시노 게이고 지음 / 김선영 옮김",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7259532%3Ftimestamp%3D20260822122739"
+        },
+        {
+          "title": "불편한 편의점",
+          "author": "김호연",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F5643183%3Ftimestamp%3D20260716120249"
+        },
+        {
+          "title": "달러구트 꿈 백화점",
+          "author": "이미예",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F5416922%3Ftimestamp%3D20260701140519"
+        },
+        {
+          "title": "내가 죽였다",
+          "author": "정해연",
+          "badge": "오디오북",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7242856%3Ftimestamp%3D20260619122236"
+        },
+        {
+          "title": "아버지의 해방일지",
+          "author": "정지아",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6150269%3Ftimestamp%3D20260820143648"
+        },
+        {
+          "title": "역행자",
+          "author": "자청",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6079127%3Ftimestamp%3D20231118154505"
+        },
+        {
+          "title": "긴나미 상점가의 사건 노트 : 형제 편",
+          "author": "이노우에 마기 지음 / 김은모 옮김",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6911852%3Ftimestamp%3D20251205183831"
+        },
+        {
+          "title": "세이노의 가르침",
+          "author": "세이노",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6266671%3Ftimestamp%3D20260822122532"
+        },
+        {
+          "title": "도시와 그 불확실한 벽",
+          "author": "무라카미 하루키",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6425899%3Ftimestamp%3D20260326131318"
+        },
+        {
+          "title": "모순",
+          "author": "양귀자",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1500252%3Ftimestamp%3D20260624111141"
+        },
+        {
+          "title": "마흔에 읽는 쇼펜하우어",
+          "author": "강용수",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6426562%3Ftimestamp%3D20260704121729"
+        },
+        {
+          "title": "도둑맞은 집중력",
+          "author": "요한 하리",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6336810%3Ftimestamp%3D20260108151957"
+        }
+      ]
+    },
+    {
+      "id": "new-books",
+      "title": "요즘 책 뭐 봄?",
+      "subtitle": "검비 에디터들의 책 이야기",
+      "cards": [
+        {
+          "tag": "검비로고",
+          "title": "'이런 일인줄 몰랐어요'\n오디오북 담당자 Ivy의 깜짝 겸업기",
+          "cover": "./assets/banners/content-banner-05.jpg"
+        },
+        {
+          "tag": "지금 읽을 책",
+          "title": "하루 15분씩 X 7일 독서, 내 마음을 돌아보는 법",
+          "cover": "./assets/banners/content-banner-09.png"
+        },
+        {
+          "tag": "지금 읽을 책",
+          "title": "🦊내 옆에 없어 다행이야, 소설 속 빌런들!",
+          "cover": "./assets/banners/content-banner-10.png"
+        },
+        {
+          "tag": "지금 읽을 책",
+          "title": "검비 회원이 10년 후에도 다시 읽고 싶은 책",
+          "cover": "./assets/banners/content-banner-08.jpg"
+        },
+        {
+          "tag": "에디터의 선택",
+          "title": "에디터는 다시 태어난 것만 같아<br>이 책을 만나고부터",
+          "cover": "./assets/banners/content-banner-04.png"
+        }
+      ]
+    },
+    {
+      "id": "editor-picks",
+      "title": "따끈따끈, 새로 들어온 책",
+      "subtitle": "기다리던 책, 바로 만나보세요",
+      "type": "fresh-books",
+      "tabs": [
+        "종합",
+        "소설",
+        "경제경영",
+        "자기계발",
+        "에세이/시",
+        "인문/교양",
+        "취미/실용",
+        "어린이/청소년",
+        "매거진"
+      ],
+      "highlightBook": {
+        "title": "스스로 정리하는 아이",
+        "author": "강민영, 유진아, 정다은",
+        "quote": "백 번의 잔소리를 멈췄더니\n아이 방에 찾아온 작은 기적",
+        "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7267082%3Ftimestamp%3D20260812143028"
+      },
+      "books": [
+        {
+          "title": "주간조선 2922호\n(2026년 08월 17일)",
+          "author": "주간조선 편집부",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7283986%3Ftimestamp%3D20260827124722"
+        },
+        {
+          "title": "거친 바다의 모험가 오디세우스",
+          "author": "서보현",
+          "cover": "https://img.millie.co.kr/200x/service/cover/6524575/7531151ba74040d390316b3fc9dc1fc1.jpg"
+        },
+        {
+          "title": "번아웃 직전, 맹자를 만났다",
+          "author": "판덩 지음 / 유연지 옮김",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7273398%3Ftimestamp%3D20260822122741"
+        },
+        {
+          "title": "읽고 읽고 말하다",
+          "author": "아사쿠라 가스미 지음 / ...",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7267691%3Ftimestamp%3D20260724150301"
+        },
+        {
+          "title": "함께 소리 내어 읽습니다",
+          "author": "구혜진, 성경숙, 오향옥, ...",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7194442%3Ftimestamp%3D20260624122106"
+        },
+        {
+          "title": "보물전",
+          "author": "모세영",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7277111%3Ftimestamp%3D20260808121408"
+        },
+        {
+          "title": "덕질 연대기",
+          "author": "김미형",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7272887%3Ftimestamp%3D20260815143915"
+        },
+        {
+          "title": "정목 스님의 하루 명상",
+          "author": "정목",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7263451%3Ftimestamp%3D20260827124628"
+        }
+      ]
+    },
+    {
+      "id": "more-books",
+      "title": "커밍순! 곧 만나요",
+      "subtitle": "알림 신청하고 오픈 소식 먼저 받기",
+      "type": "coming-soon",
+      "cards": [
+        {
+          "title": "빵충 사육 준수 사항",
+          "author": "김혜영",
+          "badges": [
+            {
+              "text": "9.4 공개",
+              "type": "yellow"
+            }
+          ],
+          "quote": "\"살면서 읽은 가장 재미있는 책.\"\n— 북 칼럼니스트 남궁민",
+          "bgColor": "#eff3f1",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7271144%3Ftimestamp%3D20260811121757"
+        },
+        {
+          "title": "뒤틀린 사랑",
+          "author": "아나 황 지음 / 윤선...",
+          "badges": [
+            {
+              "text": "9.6 공개",
+              "type": "yellow"
+            }
+          ],
+          "quote": "전 세계를 사로잡은 틱톡 최고 화제작\n노잼 일상에 도파민 로맨스의 등장이라",
+          "bgColor": "#fbeff7",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7269949%3Ftimestamp%3D20260827124646"
+        },
+        {
+          "title": "혼모노",
+          "author": "성해나",
+          "badges": [
+            {
+              "text": "9.1 공개",
+              "type": "yellow"
+            }
+          ],
+          "quote": "그토록 기다려온 한국문학의 미래\n조금만 기다리면 드디어 검비에!",
+          "bgColor": "#f3f3f3",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6873361%3Ftimestamp%3D20260816123045"
+        },
+        {
+          "title": "투명한 나선",
+          "author": "히가시노 게이고 지...",
+          "badges": [
+            {
+              "text": "오디오북",
+              "type": "blue"
+            },
+            {
+              "text": "공개 D-5",
+              "type": "yellow"
+            }
+          ],
+          "quote": "목소리로 만나는 히가시노 신작 소설\n성우들의 연기로 몰입감을 더했어요",
+          "bgColor": "#edf4fa",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7259532%3Ftimestamp%3D20260822122739"
+        },
+        {
+          "title": "오디세이아(영화 <오디세이> 원...",
+          "author": "호메로스 지음 / ...",
+          "badges": [
+            {
+              "text": "공개 D-2",
+              "type": "yellow"
+            }
+          ],
+          "quote": "기원전 700년경 쓰인 인류 대서사시\n여전히 사랑받는 데에는 이유가 있죠",
+          "bgColor": "#f7f4ee",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6892049%3Ftimestamp%3D20260820144838"
+        }
+      ]
+    }
+  ],
+  "panels": [
+    {
+      "id": "review",
+      "title": "이럴 땐 이런 책",
+      "subtitle": "검비 회원이 묻고 답하는 도서 추천",
+      "type": "qna-cards",
+      "cards": [
+        {
+          "tagBadge": "이주의 질문",
+          "tagText": "💌 8월 4주 검비 질문 도착!",
+          "question": "이번 여름 동안 읽은 책 중, 가장 기억에 남는 한 권은?",
+          "bgColor": "#6c5ce7",
+          "answer": {
+            "user": "교대불주먹",
+            "text": "<네버 라이>도 너무 재미있게 읽었는데 새로 나온 프리다 맥파든의 신작도 역...",
+            "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6564619%3Ftimestamp%3D20240416150244"
+          }
+        },
+        {
+          "tagBadge": "인기",
+          "tagText": "인생책 알려주세요",
+          "question": "읽고 기억에 오래 남는 문득 내용이 떠오르고 소장하고 싶어지는 그런 책이요",
+          "bgColor": "#a259d6",
+          "answer": {
+            "user": "살랭이아 어디가니",
+            "text": "검비에서 힐링소설 보다가 발견한 인생책입니다. 삶에 치이고 친구가 그리울...",
+            "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F5855799%3Ftimestamp%3D20240416150244"
+          }
+        },
+        {
+          "tagBadge": "인기",
+          "tagText": "설레고 싶어요! 로맨스 소설💛",
+          "question": "너무 설레고 싶어요 되도록이면 청소년물 외 로맨스물이 보고 싶어요🥰❤️ 설레서 머리 빡빡 치고 싶어...",
+          "bgColor": "#d94695",
+          "answer": {
+            "user": "개구진 개척자_931114",
+            "text": "화려하지만 잔혹한 판타지 세계속에서 아찔하면서도 뜨거운 로맨스를 느끼...",
+            "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6533037%3Ftimestamp%3D20240416150244"
+          }
+        },
+        {
+          "tagBadge": "인기",
+          "tagText": "너무너무 슬픈 책",
+          "question": "울고 싶은데 눈물이 안 나요ㅜㅜㅜ 추천 부탁드려요",
+          "bgColor": "#d65369",
+          "answer": {
+            "user": "로즈먼다리의추억",
+            "text": "그냥 일단 읽어보세요. 어떠한 스포도보지 않은채. 오열하고있는 자기 자신을...",
+            "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6350325%3Ftimestamp%3D20240416150244"
+          }
+        },
+        {
+          "tagBadge": "인기",
+          "tagText": "여름에 읽기 좋은 추리소설",
+          "question": "더위를 날려줄 스릴 넘치는 서스펜스 소설 추천해주세요!",
+          "bgColor": "#e65942",
+          "answer": {
+            "user": "독서마스터_08",
+            "text": "마지막 페이지까지 긴장감을 놓을 수 없는 최고의 반전 스릴러였습니다...",
+            "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6211470%3Ftimestamp%3D20240416150244"
+          }
+        }
+      ]
+    },
+    {
+      "id": "promotion",
+      "title": "AI와 함께 읽는 나를 일으킬 책들",
+      "subtitle": "책의 핵심 정보만 쏙쏙 찾아주는 AI 독파밍",
+      "type": "ai-books",
+      "cards": [
+        {
+          "tag": "✦ 이 책의 질문",
+          "question": "성공을 위한\n목표 설정 방법은?",
+          "bgGradient": "radial-gradient(ellipse at 50% 30%, rgba(142, 68, 245, 0.45) 0%, rgba(20, 15, 45, 0.95) 75%), linear-gradient(180deg, #241442 0%, #0c081d 100%)",
+          "title": "사람은 생각하는 대로 된다",
+          "author": "얼 나이팅게일",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6400696%3Ftimestamp%3D20260803121603"
+        },
+        {
+          "tag": "✦ 이 책의 질문",
+          "question": "잠깐 걷는 것만으로도\n뇌가 달라질까?",
+          "bgGradient": "radial-gradient(ellipse at 50% 30%, rgba(224, 53, 145, 0.45) 0%, rgba(45, 10, 30, 0.95) 75%), linear-gradient(180deg, #421232 0%, #170512 100%)",
+          "title": "운동의 뇌과학",
+          "author": "제니퍼 헤이스",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6405616%3Ftimestamp%3D20260807155349"
+        },
+        {
+          "tag": "✦ 이 책의 질문",
+          "question": "가까운 관계에는\n어느정도 거리가 적당할까?",
+          "bgGradient": "radial-gradient(ellipse at 50% 30%, rgba(0, 153, 255, 0.45) 0%, rgba(6, 30, 58, 0.95) 75%), linear-gradient(180deg, #09315c 0%, #031224 100%)",
+          "title": "나는 다정함을 선택했습니다",
+          "author": "정다은",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7071478%3Ftimestamp%3D20260725124418"
+        },
+        {
+          "tag": "✦ 이 책의 질문",
+          "question": "경기 흐름을\n읽는 방법은 무엇인가요?",
+          "bgGradient": "radial-gradient(ellipse at 50% 30%, rgba(16, 185, 129, 0.45) 0%, rgba(5, 45, 34, 0.95) 75%), linear-gradient(180deg, #0d4232 0%, #031a13 100%)",
+          "title": "부의 흐름은 반복된다",
+          "author": "김영익",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6306450%3Ftimestamp%3D20231014173156"
+        },
+        {
+          "tag": "✦ 이 책의 질문",
+          "question": "버핏이 생각하는\n현명한 투자란?",
+          "bgGradient": "radial-gradient(ellipse at 50% 30%, rgba(139, 92, 246, 0.45) 0%, rgba(25, 18, 55, 0.95) 75%), linear-gradient(180deg, #2b1c59 0%, #0d0821 100%)",
+          "title": "워런 버핏의 주주서한",
+          "author": "워런 버핏",
+          "cover": "https://search1.kakaocdn.net/thumb/R300x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6126437%3Ftimestamp%3D20260508145845"
+        }
+      ]
+    },
+    {
+      "id": "original",
+      "title": "믿고 보는 '검비 오리지널'",
+      "subtitle": "검비에서 직접 기획하고 만든, 검비만의 도서",
+      "cards": [
+        {
+          "title": "오리지널 소설",
+          "desc": "검비에서만 만날 수 있는 스페셜한 콘텐츠",
+          "image": "./assets/banners/content-banner-01.jpg",
+          "bookTitle": "어서 오세요, 휴남동 서점입니다",
+          "bookAuthor": "황보름",
+          "bookCover": "https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F5941886%3Ftimestamp%3D20260106145715"
+        },
+        {
+          "title": "오리지널 에세이",
+          "desc": "검비에서만 만날 수 있는 스페셜한 콘텐츠",
+          "image": "./assets/banners/content-banner-02.jpg",
+          "bookTitle": "기록하기로 했습니다.",
+          "bookAuthor": "김신지",
+          "bookCover": "https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F5581708%3Ftimestamp%3D20260421120514"
+        },
+        {
+          "title": "검비 오리지널 팟캐스트",
+          "desc": "검비에서만 만날 수 있는 스페셜한 콘텐츠",
+          "image": "./assets/banners/content-banner-03.jpg",
+          "bookTitle": "불편한 편의점",
+          "bookAuthor": "김호연",
+          "bookCover": "https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F5643183%3Ftimestamp%3D20260716120249"
+        },
+        {
+          "title": "검비 오리지널 웹툰",
+          "desc": "검비에서만 만날 수 있는 스페셜한 콘텐츠",
+          "image": "./assets/banners/content-banner-04.png",
+          "bookTitle": "괴물 공작가의 계약 공녀",
+          "bookAuthor": "민작, 리아",
+          "bookCover": "https://search1.kakaocdn.net/thumb/R500x0.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F5825124%3Ftimestamp%3D20231125174957"
+        }
+      ]
+    },
+    {
+      "id": "post",
+      "title": "새로운 포스트가 궁금하다면?",
+      "subtitle": "상대의 기분 살피느라 지친 당신에게!",
+      "author": "millie ORIGINAL"
+    },
+    {
+      "id": "news",
+      "title": "놓치기 아쉬운 소식!",
+      "slides": [
+        [
+          {
+            "badge": "~별빛이 내린다~",
+            "title": "별점이 빛나는 기획전",
+            "desc": "매주 금요일에 쏟아지는 별점 도서",
+            "bgColor": "#3f69e6",
+            "image": "./assets/banners/content-banner-18.png"
+          },
+          {
+            "badge": "10초면 참여 완료!",
+            "title": "밀어주고 빙수 먹기",
+            "desc": "검비로드가 인기작 밀어주리 이벤트",
+            "bgColor": "#f59e0b",
+            "image": "./assets/banners/content-banner-19.png"
+          }
+        ],
+        [
+          {
+            "badge": "",
+            "title": "나를 지키는\n최고의 방법, 도망!",
+            "desc": "호신술 클럽에 초대합니다",
+            "bgColor": "#d97706",
+            "image": "./assets/banners/content-banner-20.png"
+          },
+          {
+            "badge": "여름에 읽어야 제맛!",
+            "title": "8월 제철 독서 챌린지",
+            "desc": "수요일엔 완독 챌린지 도전해 보세요.",
+            "bgColor": "#0d9488",
+            "image": "./assets/banners/content-banner-21.png"
+          }
+        ],
+        [
+          {
+            "badge": "LGE.COM",
+            "title": "제휴 캠페인",
+            "desc": "10만 원 할인 쿠폰을 받는 기회!",
+            "bgColor": "#84cc16",
+            "image": "./assets/banners/content-banner-22.png"
+          },
+          {
+            "badge": "독서 작전 개시!",
+            "title": "배지에 상품권까지 팡팡",
+            "desc": "1권만 읽어도 이벤트 참여 완료",
+            "bgColor": "#8b5cf6",
+            "image": "./assets/banners/content-banner-23.png"
+          }
+        ],
+        [
+          {
+            "badge": "이벤트",
+            "title": "새로운 소식",
+            "desc": "지금 바로 확인해보세요",
+            "bgColor": "#6c5ce7",
+            "image": "./assets/banners/content-banner-24.png"
+          },
+          {
+            "badge": "이벤트",
+            "title": "새로운 소식",
+            "desc": "지금 바로 확인해보세요",
+            "bgColor": "#6c5ce7",
+            "image": "./assets/banners/content-banner-25.png"
+          }
+        ]
+      ]
+    }
+  ],
+  "bottomBanners": [
+    "./assets/banners/content-banner-07.jpg",
+    "./assets/banners/content-banner-08.jpg"
+  ],
+  "notice": "iOS 모바일 앱 최소 지원버전 변경 사전 안내_12/10(목)"
+}

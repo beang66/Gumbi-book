@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>투데이 | 검비의서재</title>
+    
+    <!-- 파비콘 설정 -->
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    
+    <!-- 스타일시트 로드 (Reset -> Base -> Style 순서 유지) -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- SPA 컴포넌트 동적 마운트 루트 컨테이너 (header, hero, category, content, footer) -->
+    <div id="app"></div>
+    
+    <!-- 화면 최상단 이동 플로팅 버튼 -->
+    <button class="go-top" type="button" aria-label="맨 위로">
+      <img src="./assets/ui/go-top.webp" alt="" />
+    </button>
+    
+    <!-- 메인 애플리케이션 진입점 ES 모듈 -->
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
