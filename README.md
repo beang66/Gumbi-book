@@ -3,7 +3,7 @@
 > **검비의서재**는 카카오 도서 검색 OpenAPI와 Vanilla JavaScript 기반의 반응형 전자책/오디오북 큐레이션 웹 플랫폼입니다.  
 > 모듈형 SPA 아키텍처를 바탕으로 메인 큐레이션 뷰와 실시간 도서 상세 서브페이지를 제공합니다.
 
-🔗 **Live Demo**: [https://beang66.github.io/Gumbi-Book/]
+🔗 **Live Demo**: [https://beang66.github.io/Gumbi-book/]
 
 ---
 
