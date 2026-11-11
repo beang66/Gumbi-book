@@ -1,24 +1,68 @@
-# 📚 검비의서재 (Gumbi Books)
+<div align="center">
+  <h1 align="center">
+    검비의서재 · Gumbi Books
+    <br />
+    <br />
+    <img src="docs/screenshots/home.png" alt="검비의서재 메인 화면" width="880">
+  </h1>
+</div>
 
-> **검비의서재**는 카카오 도서 검색 OpenAPI와 Vanilla JavaScript 기반의 반응형 전자책/오디오북 큐레이션 웹 플랫폼입니다.  
-> 모듈형 SPA 아키텍처를 바탕으로 메인 큐레이션 뷰와 실시간 도서 상세 서브페이지를 제공합니다.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-semantic-E34F26?logo=html5&logoColor=white" alt="HTML5 semantic">
+  <img src="https://img.shields.io/badge/JavaScript-ES_modules-F7DF1E?logo=javascript&logoColor=white" alt="JavaScript ES modules">
+  <img src="https://img.shields.io/badge/Kakao-Book_Search_API-FFCD00?logo=kakao&logoColor=white" alt="Kakao Book Search API">
+  <img src="https://img.shields.io/badge/GitHub_Pages-live-222222?logo=github&logoColor=white" alt="GitHub Pages live">
+</p>
 
-🔗 **Live Demo**: [https://beang66.github.io/Gumbi-book/]
+<p align="center"><a href="https://beang66.github.io/Gumbi-book/">Live Demo</a></p>
+
+## Introduction
+
+카카오 도서 검색 OpenAPI와 Vanilla JavaScript로 만든 반응형 전자책 · 오디오북 큐레이션 웹입니다. 프레임워크 없이 모듈형 SPA 구조로 메인 큐레이션 화면과 실시간 도서 상세 페이지를 만들었습니다.
+
+- **프레임워크 없는 SPA**
+
+> HTML 컴포넌트를 비동기로 불러와 마운트하는 순수 ES 모듈 구조입니다.
+
+- **실시간 도서 데이터**
+
+> URL 파라미터로 카카오 REST API를 호출해 제목 · 저자 · 출판사 · ISBN · 고화질 표지를 불러옵니다.
+
+- **전 해상도 반응형**
+
+> 데스크톱(1200px+) · 태블릿(768–1199px) · 모바일(320–767px) 레이아웃을 따로 맞췄습니다.
+
+## 화면
+
+| 도서 상세 | 모바일 |
+| --- | --- |
+| <img src="docs/screenshots/detail.png" alt="도서 상세 화면" width="560"> | <img src="docs/screenshots/mobile.png" alt="모바일 메인 화면" width="240"> |
+
+## 기획 포인트
+
+| 결정 | 이유 |
+| --- | --- |
+| 프레임워크 없이 컴포넌트 로더로 SPA 구성 | 헤더 · 히어로 · 카테고리 · 푸터를 HTML 조각으로 나눠 다시 쓰고, 빌드 도구 없이 GitHub Pages에 그대로 배포합니다. |
+| 큐레이션 구성을 `data/content.json`으로 분리 | 섹션 순서와 테마를 코드 수정 없이 데이터로 바꿉니다. |
+| 상세 페이지는 URL 파라미터로 카카오 API 호출 | 도서마다 페이지를 만들지 않고, 링크 하나로 실시간 메타데이터와 고화질 표지를 불러옵니다. |
+| 해상도별 레이아웃을 따로 설계 | 데스크톱 · 태블릿 · 모바일에서 카테고리 메뉴를 그리드와 가로 스와이프로 바꿔 보여 줍니다. |
+
+## Installation
+
+> ⚠️ **주의**: ES 모듈(`import/export`)과 비동기 컴포넌트 `fetch` 동작을 위해 반드시 **로컬 웹 서버**에서 실행해야 합니다.
+
+1. **VS Code Live Server (권장)**:
+   * 저장소 폴더를 VS Code로 엽니다.
+   * `index.html` 우클릭 ➔ **`Open with Live Server`** 실행 (`http://127.0.0.1:5500/index.html`)
+
+2. **Node.js Serve**:
+   ```bash
+   npx serve .
+   ```
 
 ---
 
-## 📌 1. 프로젝트 개요
-
-* **프로젝트명**: 검비의서재 (Gumbi Books)
-* **주요 특징**:
-  * **Vanilla JS ES 모듈**: 프레임워크 없는 순수 컴포넌트 로더 기반 SPA
-  * **카카오 도서 검색 REST API**: 실시간 메타데이터(제목, 저자, 출판사, 소개, ISBN, 고화질 표지) 동적 연동
-  * **풀 반응형 웹**: 데스크톱(1200px+), 태블릿(768px~1199px), 모바일(320px~767px) 최적화 레이아웃
-  * **인터랙티브 UI**: 5초 자동 롤링 히어로 슬라이더, 완독지수 매트릭스, 차트 시각화, 오디오북 플레이어
-
----
-
-## ✨ 2. 주요 기능
+## 주요 기능
 
 ### 🖥️ 메인 투데이 페이지 (`index.html`)
 * **GNB & NOW 서브바**: 1차/2차 네비게이션 및 메뉴 클릭 시 테마별 도서 상세페이지 라우팅
@@ -41,7 +85,7 @@
 
 ---
 
-## 🛠️ 3. 기술 스택
+## 기술 스택
 
 | 구분 | 기술 스택 | 설명 |
 | :--- | :--- | :--- |
@@ -52,10 +96,10 @@
 
 ---
 
-## 📁 4. 프로젝트 구조
+## 프로젝트 구조
 
 ```text
-millie_clone_final/
+Gumbi-book/
 ├── index.html                  # 메인 투데이 페이지
 ├── detail.html                 # 도서 상세 서브페이지
 ├── favicon.ico / favicon.png   # 파비콘 에셋
@@ -90,15 +134,6 @@ millie_clone_final/
 
 ---
 
-## 🚀 5. 실행 방법
+## Author
 
-> ⚠️ **주의**: ES 모듈(`import/export`)과 비동기 컴포넌트 `fetch` 동작을 위해 반드시 **로컬 웹 서버**에서 실행해야 합니다.
-
-1. **VS Code Live Server (권장)**:
-   * `millie_clone_final` 폴더를 VS Code로 엽니다.
-   * `index.html` 우클릭 ➔ **`Open with Live Server`** 실행 (`http://127.0.0.1:5500/index.html`)
-
-2. **Node.js Serve**:
-   ```bash
-   npx serve .
-   ```
+안정빈 — 기획 · 구현 (개인)
