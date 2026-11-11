@@ -1,6 +1,9 @@
 <div align="center">
   <h1 align="center">
     검비의서재 · Gumbi Books
+    <br />
+    <br />
+    <img src="docs/screenshots/home.png" alt="검비의서재 메인 화면" width="880">
   </h1>
 </div>
 
@@ -28,6 +31,21 @@
 - **전 해상도 반응형**
 
 > 데스크톱(1200px+) · 태블릿(768–1199px) · 모바일(320–767px) 레이아웃을 따로 맞췄습니다.
+
+## 화면
+
+| 도서 상세 | 모바일 |
+| --- | --- |
+| <img src="docs/screenshots/detail.png" alt="도서 상세 화면" width="560"> | <img src="docs/screenshots/mobile.png" alt="모바일 메인 화면" width="240"> |
+
+## 기획 포인트
+
+| 결정 | 이유 |
+| --- | --- |
+| 프레임워크 없이 컴포넌트 로더로 SPA 구성 | 헤더 · 히어로 · 카테고리 · 푸터를 HTML 조각으로 나눠 다시 쓰고, 빌드 도구 없이 GitHub Pages에 그대로 배포합니다. |
+| 큐레이션 구성을 `data/content.json`으로 분리 | 섹션 순서와 테마를 코드 수정 없이 데이터로 바꿉니다. |
+| 상세 페이지는 URL 파라미터로 카카오 API 호출 | 도서마다 페이지를 만들지 않고, 링크 하나로 실시간 메타데이터와 고화질 표지를 불러옵니다. |
+| 해상도별 레이아웃을 따로 설계 | 데스크톱 · 태블릿 · 모바일에서 카테고리 메뉴를 그리드와 가로 스와이프로 바꿔 보여 줍니다. |
 
 ## Installation
 
