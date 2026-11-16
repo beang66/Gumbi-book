@@ -1,11 +1,13 @@
 /**
  * 도서 상세 서브페이지 전용 렌더링 모듈 (detail.js)
- * 카카오 검색 OpenAPI를 통한 실시간 도서 정보 추출 및 시각화(차트, 매트릭스, 오디오 플레이어)를 수행합니다.
+ * 카카오 검색 OpenAPI의 도서 정보를 보여주고 차트·매트릭스·오디오 UI 시안을 렌더링합니다.
+ * 오디오 파일 재생과 개인 서재 데이터 저장은 아직 연결되지 않았습니다.
  */
+// 주의: 공개 브라우저 코드에 포함된 REST API 키는 방문자에게 노출된다. 실제 운영에서는 키 교체와 서버 측 API 중계가 필요하다.
 const KAKAO_API_KEY = 'afe875f89c64d4bfd897c7571dd9bfac';
 const KAKAO_API_URL = 'https://dapi.kakao.com/v3/search/book';
 
-// 기본 디폴트 도서 메타데이터
+// API 결과가 없을 때 보여 주는 데모용 기본 메타데이터. 평점·오디오북 수치 등은 실측 데이터가 아니다.
 const DEFAULT_BOOK = {
   title: '작은 일기',
   author: '황정은',
@@ -172,7 +174,7 @@ async function initDetailPage() {
         </div>
       </div>
 
-      <!-- 1분 미리 듣기 플레이어 바 -->
+      <!-- 1분 미리 듣기 플레이어 시안 (실제 오디오 파일은 연결되지 않음) -->
       <div class="preview-player">
         <button class="play-btn" id="preview-play-btn" aria-label="재생">▶</button>
         <div class="preview-track-info">
@@ -361,7 +363,7 @@ async function initDetailPage() {
 }
 
 function bindInteractions() {
-  // 1분 미리듣기 재생 버튼 토글
+  // 실제 재생 없이 버튼 모양만 바꾸는 데모 인터랙션
   const playBtn = document.querySelector('#preview-play-btn');
   let isPlaying = false;
   playBtn?.addEventListener('click', () => {
@@ -370,7 +372,7 @@ function bindInteractions() {
     playBtn.style.backgroundColor = isPlaying ? '#2563eb' : '#242424';
   });
 
-  // 서재 담기 버튼 토글
+  // 서재 담기 UI 상태만 변경한다. 새로고침 후 유지되는 저장 기능은 없다.
   const shelfBtns = [document.querySelector('#btn-shelf'), document.querySelector('#floating-shelf-btn')];
   let isShelfed = false;
   shelfBtns.forEach(btn => {
