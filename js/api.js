@@ -5,7 +5,8 @@
 const CONTENT_URL = new URL('../data/content.json', import.meta.url)
 const BOOK_API_URL = 'https://dapi.kakao.com/v3/search/book'
 
-// 카카오 개발자 REST API 인증 키
+// 보안 주의: 정적 프런트엔드에 하드코딩한 REST API 키는 브라우저 사용자에게 공개된다.
+// 운영용 키는 교체하고 서버 프록시로 호출해야 하며, 이 값은 비밀로 보호되지 않는다.
 const BOOK_API_KEY = 'afe875f89c64d4bfd897c7571dd9bfac'
 
 /**
