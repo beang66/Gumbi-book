@@ -451,7 +451,7 @@ function qnaSection (sec) {
   </section>`
 }
 
-/* AI와 함께 읽는 나를 일으킬 책들 - 글로우 AI 북 카드 섹션 */
+/* 'AI와 함께 읽기' 콘셉트 카드 UI. 실제 모델 호출·버튼 실행 기능은 아직 연결되지 않았다. */
 function aiBooksSection (sec) {
   return `<section class="section carousel-wrap ai-books-section" data-carousel id="ai-books-section">
     ${heading(sec.title, sec.subtitle, true)}
