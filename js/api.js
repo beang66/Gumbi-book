@@ -1,6 +1,6 @@
 /**
  * 카카오 도서 검색 REST API 클라이언트 모듈 (api.js)
- * 실시간 도서 검색, 고화질 표지 디코딩 및 데이터 정규화를 담당합니다.
+ * 도서 검색 응답 정규화·고화질 표지 처리를 담당합니다. 실시간 호출은 서버 중계 연결 전까지 비활성화되어 있습니다.
  */
 const CONTENT_URL = new URL('../data/content.json', import.meta.url)
 const BOOK_API_URL = 'https://dapi.kakao.com/v3/search/book'
