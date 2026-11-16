@@ -5,9 +5,8 @@
 const CONTENT_URL = new URL('../data/content.json', import.meta.url)
 const BOOK_API_URL = 'https://dapi.kakao.com/v3/search/book'
 
-// 보안 주의: 정적 프런트엔드에 하드코딩한 REST API 키는 브라우저 사용자에게 공개된다.
-// 운영용 키는 교체하고 서버 프록시로 호출해야 하며, 이 값은 비밀로 보호되지 않는다.
-const BOOK_API_KEY = 'afe875f89c64d4bfd897c7571dd9bfac'
+// 폐기된 API 키는 제거했다. 서버 측 중계 연결 전까지 라이브 검색은 비활성화한다.
+const BOOK_API_KEY = ''
 
 /**
  * 레이아웃 설정 JSON을 비동기로 로드합니다.
@@ -65,7 +64,7 @@ export function normalizeBook (raw = {}, index = 0) {
 }
 
 function hasApiKey () {
-  return BOOK_API_KEY && BOOK_API_KEY !== 'YOUR_KAKAO_REST_API_KEY'
+  return Boolean(BOOK_API_KEY)
 }
 
 export async function searchBooks (
@@ -73,7 +72,7 @@ export async function searchBooks (
   { size = 10, page = 1, sort = 'accuracy' } = {}
 ) {
   if (!hasApiKey())
-    throw new Error('js/api.js에 카카오 REST API 키를 입력해 주세요.')
+    throw new Error('실시간 도서 검색은 서버 중계 연결 전까지 비활성화되어 있습니다.')
   
   // 표지가 없는 도서가 필터링될 수 있으므로 여유 있게 요청합니다.
   const requestSize = Math.min(Math.max(size * 2, 20), 50)
@@ -117,7 +116,7 @@ function placeholderBook (index) {
       2,
       '0'
     )}.${extension}`,
-    description: 'API 키를 입력하거나 네트워크 상태를 확인해 주세요.',
+    description: '실시간 도서 검색 연결 전에는 예시 표지를 표시합니다.',
     url: '',
     badge: ''
   }
