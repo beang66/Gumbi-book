@@ -3,8 +3,8 @@
  * 카카오 검색 OpenAPI의 도서 정보를 보여주고 차트·매트릭스·오디오 UI 시안을 렌더링합니다.
  * 오디오 파일 재생과 개인 서재 데이터 저장은 아직 연결되지 않았습니다.
  */
-// 주의: 공개 브라우저 코드에 포함된 REST API 키는 방문자에게 노출된다. 실제 운영에서는 키 교체와 서버 측 API 중계가 필요하다.
-const KAKAO_API_KEY = 'afe875f89c64d4bfd897c7571dd9bfac';
+// 폐기된 키는 제거했다. 서버 중계가 구현되기 전에는 기본 도서 정보로 표시한다.
+const KAKAO_API_KEY = '';
 const KAKAO_API_URL = 'https://dapi.kakao.com/v3/search/book';
 
 // API 결과가 없을 때 보여 주는 데모용 기본 메타데이터. 평점·오디오북 수치 등은 실측 데이터가 아니다.
@@ -52,7 +52,7 @@ function getQueryParams() {
 
 // 카카오 도서 API 상세 검색
 async function searchBookDetails(title, author) {
-  if (!title) return null;
+  if (!title || !KAKAO_API_KEY) return null;
   const cleanTitle = title.replace(/\(.*\)/g, '').replace(/\[.*\]/g, '').trim();
   const query = `${cleanTitle} ${author || ''}`.trim();
   
